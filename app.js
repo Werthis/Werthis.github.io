@@ -19,7 +19,7 @@ const fetchMovies = async () => {
     return;
   }
 
-  const url = `http://www.omdbapi.com/?apikey=${API_KEY}&s=${title}&type=${type}&page=${currentPage}`;
+  const url = `https://www.omdbapi.com/?apikey=${API_KEY}&s=${title}&type=${type}&page=${currentPage}`;
 
   try {
     const response = await fetch(url);
