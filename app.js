@@ -10,7 +10,6 @@ let currentPage = 1;
 const API_KEY = "2d423975";
 
 const fetchMovies = async () => {
-  console.log("currentPage", currentPage);
   const title = titleInput.value;
   const type = typeSelect.value;
 
